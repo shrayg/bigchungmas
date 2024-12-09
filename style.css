@@ -1,0 +1,56 @@
+@font-face {
+	font-family: 'chungusfont';
+	src:url("modeseven-font/Modeseven-L3n5.ttf");
+}
+
+body{ 
+	background: #000000;
+}
+
+h1 {
+	text-align: center;
+	color: #93ff06;
+	font-family: 'chungusfont'; 
+} 
+
+h3{
+	font-family: 'chungusfont', 'Trebuchet MS', Arial, sans-serif;
+	font-size: 20px;
+  	font-weight: bold;
+  	margin: 0 auto;
+  	display: block;
+  	width: 500px;
+	color: #93ff06;
+	
+	margin-bottom: 0.4em;
+
+}
+h4{
+	font-family: 'chungusfont', 'Trebuchet MS', Arial, sans-serif;
+	font-size: 20px;
+  	font-weight: bold;
+  	margin: 0 auto;
+  	display: block;
+  	width: 500px;
+	color: #93ff06;
+
+}
+
+p {
+	font-family: 'chungusfont', 'Trebuchet MS', Arial, sans-serif;
+	font-size: 12px;
+  	font-weight: bold;
+  	margin: 0 auto;
+  	display: block;
+  	width: 500px;
+	color: #6EC000;
+	margin-bottom: 0.15em;
+}
+
+p span {
+	transition: 0.2s;
+}
+
+p:hover span {
+	color:#91FF00
+}
