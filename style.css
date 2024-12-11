@@ -5,6 +5,7 @@
 
 body{ 
 	background: #000000;
+	overflow-x: hidden;
 }
 
 h1 {
@@ -54,3 +55,11 @@ p span {
 p:hover span {
 	color:#91FF00
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	height: auto;
+}
+
