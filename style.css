@@ -2,10 +2,74 @@
 	font-family: 'chungusfont';
 	src:url(Modeseven-L3n5.ttf);
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	height: auto;
+}
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
 
 body{ 
+	font-family: "chungusfont";
 	background: #000000;
 	overflow-x: hidden;
+}
+
+.result {
+	margin-left: auto;
+	margin-right: auto;
+	width:700px;
+	display: flex;
+	font-weight: 700;
+	font-size: 1.5rem;
+	margin:  1rem auto;
+	padding: .3rem 1rem;
+	
+}
+
+.pie-chart-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 2rem;
+	gap: 20px;
+}
+
+.legend-color{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 10px;
+	
+}
+
+.legend-item {
+	display: flex;
+	margin-top: 20px;
+	
+}
+
+.animate-pie-chart{
+	animation: animate-pie-chart 1s ease-in-out;
+}
+@keyframes animate-pie-chart{
+	0%{
+		transform: scale(0);
+		opacity: 0;
+		
+	}
+	100%{
+		transform: scale(1);
+		opacity: 1;
+	}
 }
 
 h1 {
@@ -56,10 +120,5 @@ p:hover span {
 	color:#91FF00
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-	height: auto;
-}
+
 
